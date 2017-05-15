@@ -233,11 +233,9 @@ class Forker
             return false;
         }
 
-        if (posix_kill($pid, SIGKILL)) {
-            return $pid;
-        }
+        posix_kill($pid, SIGKILL);
 
-        return false;
+        return $pid;
     }
 
     /**
