@@ -1,3 +1,3 @@
 PHP Task Forker
 
-It depends on pcntl extension.
+It depends on PHP pcntl extension.
